@@ -39,7 +39,7 @@
 			<script>
 				function EnemyCall() {  
     					<?php
-						$conn = (this is thee connection string);
+						$conn = oci_connect('cyagow', 'Mar951996', '(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=db2.ndsu.edu)(Port=1521)))(CONNECT_DATA=(SID=cs)))');;
 						$query = "select * from EnemiesKnown where Playerid = " + $currentuser;
 					?>
 				}
